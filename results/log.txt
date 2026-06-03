@@ -1,0 +1,141 @@
+Tic-tac-toe Game (Version: 0.4.25022808 by baluong.87)
+------------------------------------------------
+[INFO] - [2026-05-22 11:08:52] Logger Khoi Tao Hoan Tat
+[DEBUG] - [2026-05-22 11:08:52] RunConfig {
+  interactive:  true
+  judge_mode:   false
+  input_file:   ""
+  to_file:      true
+  log_file:     "log.txt"
+  verbose_flag: true
+  gui_flag:     true
+  is_help:      false
+}
+[INFO] - [2026-05-22 11:08:52] SDL Renderer initialized!
+[INFO] - [2026-05-22 11:08:52] SDL Interaction initialized!
+[INFO] - [2026-05-22 11:08:52] Infra initialized!
+[INFO] - [2026-05-22 11:08:52] Engine initializing . . .
+[INFO] - [2026-05-22 11:08:53] Font loaded: assets/font.ttf
+[INFO] - [2026-05-22 11:08:53] Texture loaded: assets/bg_menu.png
+[INFO] - [2026-05-22 11:08:53] Texture loaded: assets/bg_setup.png
+[INFO] - [2026-05-22 11:08:53] Texture loaded: assets/bg_game.png
+[INFO] - [2026-05-22 11:08:53] Texture loaded: assets/bg_result.png
+[INFO] - [2026-05-22 11:08:53] SDLRenderer initialized.
+[INFO] - [2026-05-22 11:08:53] Engine initialized!
+[INFO] - [2026-05-22 11:08:53] [Engine] Starting game . . .
+[DEBUG] - [2026-05-22 11:08:55] user input 'size' = 12
+[DEBUG] - [2026-05-22 11:08:56] user input 'goal' = 4
+[DEBUG] - [2026-05-22 11:08:57] user input 'game mode' = EVE
+[DEBUG] - [2026-05-22 11:08:58] user input 'bot level[0]' = HARD
+[DEBUG] - [2026-05-22 11:08:58] user input 'bot level[1]' = HARD
+[DEBUG] - [2026-05-22 11:08:58] Logic::initBoard: 12x12
+[INFO] - [2026-05-22 11:08:58] Board initialized!
+[INFO] - [2026-05-22 11:08:58] [Engine] Game started!
+[INFO] - [2026-05-22 11:08:58] [Engine] Playing game . . .
+[DEBUG] - [2026-05-22 11:08:58] [Engine] starting turn #0
+[DEBUG] - [2026-05-22 11:08:58] BotLevel3::getMove (minimax+evaluate)
+[DEBUG] - [2026-05-22 11:08:58] execution time of [bot#0->getMove()()] = 0.0104029s
+[DEBUG] - [2026-05-22 11:08:58] player 1 make move to (6, 6)
+[DEBUG] - [2026-05-22 11:09:00] [Engine] turn done!
+[DEBUG] - [2026-05-22 11:09:00] [Engine] starting turn #1
+[DEBUG] - [2026-05-22 11:09:00] BotLevel3::getMove (minimax+evaluate)
+[DEBUG] - [2026-05-22 11:09:00] execution time of [bot#1->getMove()()] = 0.195882s
+[DEBUG] - [2026-05-22 11:09:00] player 2 make move to (5, 5)
+[DEBUG] - [2026-05-22 11:09:01] [Engine] turn done!
+[DEBUG] - [2026-05-22 11:09:01] [Engine] starting turn #2
+[DEBUG] - [2026-05-22 11:09:01] BotLevel3::getMove (minimax+evaluate)
+[DEBUG] - [2026-05-22 11:09:02] execution time of [bot#0->getMove()()] = 0.332683s
+[DEBUG] - [2026-05-22 11:09:02] player 1 make move to (6, 5)
+[DEBUG] - [2026-05-22 11:09:03] [Engine] turn done!
+[DEBUG] - [2026-05-22 11:09:03] [Engine] starting turn #3
+[DEBUG] - [2026-05-22 11:09:03] BotLevel3::getMove (minimax+evaluate)
+[DEBUG] - [2026-05-22 11:09:04] execution time of [bot#1->getMove()()] = 0.285046s
+[DEBUG] - [2026-05-22 11:09:04] player 2 make move to (7, 7)
+[DEBUG] - [2026-05-22 11:09:05] [Engine] turn done!
+[DEBUG] - [2026-05-22 11:09:05] [Engine] starting turn #4
+[DEBUG] - [2026-05-22 11:09:05] BotLevel3::getMove (minimax+evaluate)
+[DEBUG] - [2026-05-22 11:09:05] execution time of [bot#0->getMove()()] = 0.355932s
+[DEBUG] - [2026-05-22 11:09:05] player 1 make move to (7, 6)
+[DEBUG] - [2026-05-22 11:09:07] [Engine] turn done!
+[DEBUG] - [2026-05-22 11:09:07] [Engine] starting turn #5
+[DEBUG] - [2026-05-22 11:09:07] BotLevel3::getMove (minimax+evaluate)
+[DEBUG] - [2026-05-22 11:09:07] execution time of [bot#1->getMove()()] = 0.394311s
+[DEBUG] - [2026-05-22 11:09:07] player 2 make move to (7, 5)
+[DEBUG] - [2026-05-22 11:09:09] [Engine] turn done!
+[DEBUG] - [2026-05-22 11:09:09] [Engine] starting turn #6
+[DEBUG] - [2026-05-22 11:09:09] BotLevel3::getMove (minimax+evaluate)
+[DEBUG] - [2026-05-22 11:09:09] execution time of [bot#0->getMove()()] = 0.30817s
+[DEBUG] - [2026-05-22 11:09:09] player 1 make move to (6, 7)
+[DEBUG] - [2026-05-22 11:09:11] [Engine] turn done!
+[DEBUG] - [2026-05-22 11:09:11] [Engine] starting turn #7
+[DEBUG] - [2026-05-22 11:09:11] BotLevel3::getMove (minimax+evaluate)
+[DEBUG] - [2026-05-22 11:09:11] execution time of [bot#1->getMove()()] = 0.0020059s
+[DEBUG] - [2026-05-22 11:09:11] player 2 make move to (6, 4)
+[DEBUG] - [2026-05-22 11:09:12] [Engine] turn done!
+[DEBUG] - [2026-05-22 11:09:12] [Engine] starting turn #8
+[DEBUG] - [2026-05-22 11:09:12] BotLevel3::getMove (minimax+evaluate)
+[DEBUG] - [2026-05-22 11:09:13] execution time of [bot#0->getMove()()] = 0.62616s
+[DEBUG] - [2026-05-22 11:09:13] player 1 make move to (5, 4)
+[DEBUG] - [2026-05-22 11:09:14] [Engine] turn done!
+[DEBUG] - [2026-05-22 11:09:14] [Engine] starting turn #9
+[DEBUG] - [2026-05-22 11:09:14] BotLevel3::getMove (minimax+evaluate)
+[DEBUG] - [2026-05-22 11:09:14] execution time of [bot#1->getMove()()] = 0.0018483s
+[DEBUG] - [2026-05-22 11:09:14] player 2 make move to (4, 3)
+[DEBUG] - [2026-05-22 11:09:16] [Engine] turn done!
+[DEBUG] - [2026-05-22 11:09:16] [Engine] starting turn #10
+[DEBUG] - [2026-05-22 11:09:16] BotLevel3::getMove (minimax+evaluate)
+[DEBUG] - [2026-05-22 11:09:17] execution time of [bot#0->getMove()()] = 0.651003s
+[DEBUG] - [2026-05-22 11:09:17] player 1 make move to (5, 8)
+[DEBUG] - [2026-05-22 11:09:18] [Engine] turn done!
+[DEBUG] - [2026-05-22 11:09:18] [Engine] starting turn #11
+[DEBUG] - [2026-05-22 11:09:18] BotLevel3::getMove (minimax+evaluate)
+[DEBUG] - [2026-05-22 11:09:18] execution time of [bot#1->getMove()()] = 0.0018173s
+[DEBUG] - [2026-05-22 11:09:18] player 2 make move to (4, 9)
+[DEBUG] - [2026-05-22 11:09:20] [Engine] turn done!
+[DEBUG] - [2026-05-22 11:09:20] [Engine] starting turn #12
+[DEBUG] - [2026-05-22 11:09:20] BotLevel3::getMove (minimax+evaluate)
+[DEBUG] - [2026-05-22 11:09:20] execution time of [bot#0->getMove()()] = 0.813013s
+[DEBUG] - [2026-05-22 11:09:20] player 1 make move to (8, 6)
+[DEBUG] - [2026-05-22 11:09:22] [Engine] turn done!
+[DEBUG] - [2026-05-22 11:09:22] [Engine] starting turn #13
+[DEBUG] - [2026-05-22 11:09:22] BotLevel3::getMove (minimax+evaluate)
+[DEBUG] - [2026-05-22 11:09:22] execution time of [bot#1->getMove()()] = 0.0020446s
+[DEBUG] - [2026-05-22 11:09:22] player 2 make move to (5, 6)
+[DEBUG] - [2026-05-22 11:09:23] [Engine] turn done!
+[DEBUG] - [2026-05-22 11:09:23] [Engine] starting turn #14
+[DEBUG] - [2026-05-22 11:09:23] BotLevel3::getMove (minimax+evaluate)
+[DEBUG] - [2026-05-22 11:09:24] execution time of [bot#0->getMove()()] = 0.860725s
+[DEBUG] - [2026-05-22 11:09:24] player 1 make move to (8, 7)
+[DEBUG] - [2026-05-22 11:09:26] [Engine] turn done!
+[DEBUG] - [2026-05-22 11:09:26] [Engine] starting turn #15
+[DEBUG] - [2026-05-22 11:09:26] BotLevel3::getMove (minimax+evaluate)
+[DEBUG] - [2026-05-22 11:09:26] execution time of [bot#1->getMove()()] = 0.0021973s
+[DEBUG] - [2026-05-22 11:09:26] player 2 make move to (9, 8)
+[DEBUG] - [2026-05-22 11:09:27] [Engine] turn done!
+[DEBUG] - [2026-05-22 11:09:27] [Engine] starting turn #16
+[DEBUG] - [2026-05-22 11:09:27] BotLevel3::getMove (minimax+evaluate)
+[DEBUG] - [2026-05-22 11:09:28] execution time of [bot#0->getMove()()] = 0.823776s
+[DEBUG] - [2026-05-22 11:09:28] player 1 make move to (8, 5)
+[DEBUG] - [2026-05-22 11:09:30] [Engine] turn done!
+[DEBUG] - [2026-05-22 11:09:30] [Engine] starting turn #17
+[DEBUG] - [2026-05-22 11:09:30] BotLevel3::getMove (minimax+evaluate)
+[DEBUG] - [2026-05-22 11:09:30] execution time of [bot#1->getMove()()] = 0.0020667s
+[DEBUG] - [2026-05-22 11:09:30] player 2 make move to (8, 4)
+[DEBUG] - [2026-05-22 11:09:31] [Engine] turn done!
+[DEBUG] - [2026-05-22 11:09:31] [Engine] starting turn #18
+[DEBUG] - [2026-05-22 11:09:31] BotLevel3::getMove (minimax+evaluate)
+[DEBUG] - [2026-05-22 11:09:31] execution time of [bot#0->getMove()()] = 0.0012311s
+[DEBUG] - [2026-05-22 11:09:31] player 1 make move to (9, 4)
+[DEBUG] - [2026-05-22 11:09:33] [Engine] turn done!
+[INFO] - [2026-05-22 11:09:33] [Engine] Game done!
+[INFO] - [2026-05-22 11:09:33] [Engine] Ending game . . .
+[DEBUG] - [2026-05-22 11:09:33] [WinLine] cells: (6, 7) (7, 6) (8, 5) (9, 4) 
+[DEBUG] - [2026-05-22 11:09:35] after 19 turns
+[DEBUG] - [2026-05-22 11:09:35] game end with result: player 1 (bot) win!
+[INFO] - [2026-05-22 11:09:35] [Engine] Game ended!
+[INFO] - [2026-05-22 11:09:35] Engine closing . . .
+[INFO] - [2026-05-22 11:09:35] SDLRenderer closed.
+[INFO] - [2026-05-22 11:09:35] Engine closed!
+[INFO] - [2026-05-22 11:09:35] Engine destroyed!
+[INFO] - [2026-05-22 11:09:35] Infra destroyed!
+[INFO] - [2026-05-22 11:09:35] Logger closing . . .
