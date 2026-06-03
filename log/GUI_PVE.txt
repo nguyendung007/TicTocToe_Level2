@@ -1,0 +1,77 @@
+Tic-tac-toe Game (Version: 0.4.25022808 by baluong.87)
+------------------------------------------------
+[INFO] - [2026-05-22 09:32:32] Logger Khoi Tao Hoan Tat
+[DEBUG] - [2026-05-22 09:32:32] RunConfig {
+  interactive:  true
+  judge_mode:   false
+  input_file:   ""
+  to_file:      true
+  log_file:     "log.txt"
+  verbose_flag: true
+  gui_flag:     true
+  is_help:      false
+}
+[INFO] - [2026-05-22 09:32:32] SDL Renderer initialized!
+[INFO] - [2026-05-22 09:32:32] SDL Interaction initialized!
+[INFO] - [2026-05-22 09:32:32] Infra initialized!
+[INFO] - [2026-05-22 09:32:32] Engine initializing . . .
+[INFO] - [2026-05-22 09:32:33] Font loaded: assets/font.ttf
+[INFO] - [2026-05-22 09:32:33] Texture loaded: assets/bg_menu.png
+[INFO] - [2026-05-22 09:32:33] Texture loaded: assets/bg_setup.png
+[INFO] - [2026-05-22 09:32:33] Texture loaded: assets/bg_game.png
+[INFO] - [2026-05-22 09:32:33] Texture loaded: assets/bg_result.png
+[INFO] - [2026-05-22 09:32:33] SDLRenderer initialized.
+[INFO] - [2026-05-22 09:32:33] Engine initialized!
+[INFO] - [2026-05-22 09:32:33] [Engine] Starting game . . .
+[DEBUG] - [2026-05-22 09:32:41] user input 'size' = 12
+[DEBUG] - [2026-05-22 09:32:43] user input 'goal' = 4
+[DEBUG] - [2026-05-22 09:32:47] user input 'game mode' = PVE
+[DEBUG] - [2026-05-22 09:32:48] user input 'bot level' = HARD
+[DEBUG] - [2026-05-22 09:32:48] Logic::initBoard: 12x12
+[INFO] - [2026-05-22 09:32:48] Board initialized!
+[INFO] - [2026-05-22 09:32:48] [Engine] Game started!
+[INFO] - [2026-05-22 09:32:48] [Engine] Playing game . . .
+[DEBUG] - [2026-05-22 09:32:48] [Engine] starting turn #0
+[DEBUG] - [2026-05-22 09:32:50] player 1 make move to (5, 5)
+[DEBUG] - [2026-05-22 09:32:50] [Engine] turn done!
+[DEBUG] - [2026-05-22 09:32:50] [Engine] starting turn #1
+[DEBUG] - [2026-05-22 09:32:50] BotLevel3::getMove (minimax+evaluate)
+[DEBUG] - [2026-05-22 09:32:50] execution time of [bot#1->getMove()()] = 0.19597s
+[DEBUG] - [2026-05-22 09:32:50] player 2 make move to (6, 6)
+[DEBUG] - [2026-05-22 09:32:51] [Engine] turn done!
+[DEBUG] - [2026-05-22 09:32:51] [Engine] starting turn #2
+[DEBUG] - [2026-05-22 09:32:52] player 1 make move to (5, 6)
+[DEBUG] - [2026-05-22 09:32:52] [Engine] turn done!
+[DEBUG] - [2026-05-22 09:32:52] [Engine] starting turn #3
+[DEBUG] - [2026-05-22 09:32:53] BotLevel3::getMove (minimax+evaluate)
+[DEBUG] - [2026-05-22 09:32:53] execution time of [bot#1->getMove()()] = 0.30675s
+[DEBUG] - [2026-05-22 09:32:53] player 2 make move to (5, 7)
+[DEBUG] - [2026-05-22 09:32:54] [Engine] turn done!
+[DEBUG] - [2026-05-22 09:32:54] [Engine] starting turn #4
+[DEBUG] - [2026-05-22 09:32:55] player 1 make move to (4, 6)
+[DEBUG] - [2026-05-22 09:32:55] [Engine] turn done!
+[DEBUG] - [2026-05-22 09:32:55] [Engine] starting turn #5
+[DEBUG] - [2026-05-22 09:32:55] BotLevel3::getMove (minimax+evaluate)
+[DEBUG] - [2026-05-22 09:32:55] execution time of [bot#1->getMove()()] = 0.455684s
+[DEBUG] - [2026-05-22 09:32:55] player 2 make move to (7, 5)
+[DEBUG] - [2026-05-22 09:32:57] [Engine] turn done!
+[DEBUG] - [2026-05-22 09:32:57] [Engine] starting turn #6
+[DEBUG] - [2026-05-22 09:32:57] player 1 make move to (4, 5)
+[DEBUG] - [2026-05-22 09:32:57] [Engine] turn done!
+[DEBUG] - [2026-05-22 09:32:57] [Engine] starting turn #7
+[DEBUG] - [2026-05-22 09:32:57] BotLevel3::getMove (minimax+evaluate)
+[DEBUG] - [2026-05-22 09:32:57] execution time of [bot#1->getMove()()] = 0.0006784s
+[DEBUG] - [2026-05-22 09:32:57] player 2 make move to (4, 8)
+[DEBUG] - [2026-05-22 09:32:59] [Engine] turn done!
+[INFO] - [2026-05-22 09:32:59] [Engine] Game done!
+[INFO] - [2026-05-22 09:32:59] [Engine] Ending game . . .
+[DEBUG] - [2026-05-22 09:32:59] [WinLine] cells: (4, 8) (5, 7) (6, 6) (7, 5) 
+[DEBUG] - [2026-05-22 09:33:00] after 8 turns
+[DEBUG] - [2026-05-22 09:33:00] game end with result: player 2 (bot) win!
+[INFO] - [2026-05-22 09:33:00] [Engine] Game ended!
+[INFO] - [2026-05-22 09:33:00] Engine closing . . .
+[INFO] - [2026-05-22 09:33:00] SDLRenderer closed.
+[INFO] - [2026-05-22 09:33:00] Engine closed!
+[INFO] - [2026-05-22 09:33:00] Engine destroyed!
+[INFO] - [2026-05-22 09:33:00] Infra destroyed!
+[INFO] - [2026-05-22 09:33:00] Logger closing . . .

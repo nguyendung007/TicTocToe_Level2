@@ -1,0 +1,89 @@
+Tic-tac-toe Game (Version: 0.4.25022808 by baluong.87)
+------------------------------------------------
+[INFO] - [2026-05-22 09:33:34] Logger Khoi Tao Hoan Tat
+[DEBUG] - [2026-05-22 09:33:34] RunConfig {
+  interactive:  true
+  judge_mode:   false
+  input_file:   ""
+  to_file:      true
+  log_file:     "log.txt"
+  verbose_flag: true
+  gui_flag:     true
+  is_help:      false
+}
+[INFO] - [2026-05-22 09:33:34] SDL Renderer initialized!
+[INFO] - [2026-05-22 09:33:34] SDL Interaction initialized!
+[INFO] - [2026-05-22 09:33:34] Infra initialized!
+[INFO] - [2026-05-22 09:33:34] Engine initializing . . .
+[INFO] - [2026-05-22 09:33:35] Font loaded: assets/font.ttf
+[INFO] - [2026-05-22 09:33:35] Texture loaded: assets/bg_menu.png
+[INFO] - [2026-05-22 09:33:35] Texture loaded: assets/bg_setup.png
+[INFO] - [2026-05-22 09:33:35] Texture loaded: assets/bg_game.png
+[INFO] - [2026-05-22 09:33:35] Texture loaded: assets/bg_result.png
+[INFO] - [2026-05-22 09:33:35] SDLRenderer initialized.
+[INFO] - [2026-05-22 09:33:35] Engine initialized!
+[INFO] - [2026-05-22 09:33:35] [Engine] Starting game . . .
+[DEBUG] - [2026-05-22 09:33:39] user input 'size' = 12
+[DEBUG] - [2026-05-22 09:33:42] user input 'goal' = 5
+[DEBUG] - [2026-05-22 09:33:45] user input 'game mode' = PVP
+[DEBUG] - [2026-05-22 09:33:45] Logic::initBoard: 12x12
+[INFO] - [2026-05-22 09:33:45] Board initialized!
+[INFO] - [2026-05-22 09:33:45] [Engine] Game started!
+[INFO] - [2026-05-22 09:33:45] [Engine] Playing game . . .
+[DEBUG] - [2026-05-22 09:33:45] [Engine] starting turn #0
+[DEBUG] - [2026-05-22 09:33:46] player 1 make move to (5, 5)
+[DEBUG] - [2026-05-22 09:33:46] [Engine] turn done!
+[DEBUG] - [2026-05-22 09:33:46] [Engine] starting turn #1
+[DEBUG] - [2026-05-22 09:33:50] player 2 make move to (6, 4)
+[DEBUG] - [2026-05-22 09:33:50] [Engine] turn done!
+[DEBUG] - [2026-05-22 09:33:50] [Engine] starting turn #2
+[DEBUG] - [2026-05-22 09:33:53] player 1 make move to (4, 4)
+[DEBUG] - [2026-05-22 09:33:53] [Engine] turn done!
+[DEBUG] - [2026-05-22 09:33:53] [Engine] starting turn #3
+[DEBUG] - [2026-05-22 09:33:55] player 2 make move to (6, 6)
+[DEBUG] - [2026-05-22 09:33:55] [Engine] turn done!
+[DEBUG] - [2026-05-22 09:33:55] [Engine] starting turn #4
+[DEBUG] - [2026-05-22 09:33:56] player 1 make move to (4, 5)
+[DEBUG] - [2026-05-22 09:33:56] [Engine] turn done!
+[DEBUG] - [2026-05-22 09:33:56] [Engine] starting turn #5
+[DEBUG] - [2026-05-22 09:33:58] player 2 make move to (5, 2)
+[DEBUG] - [2026-05-22 09:33:58] [Engine] turn done!
+[DEBUG] - [2026-05-22 09:33:58] [Engine] starting turn #6
+[DEBUG] - [2026-05-22 09:33:58] player 1 make move to (4, 3)
+[DEBUG] - [2026-05-22 09:33:58] [Engine] turn done!
+[DEBUG] - [2026-05-22 09:33:58] [Engine] starting turn #7
+[DEBUG] - [2026-05-22 09:33:59] player 2 make move to (3, 5)
+[DEBUG] - [2026-05-22 09:33:59] [Engine] turn done!
+[DEBUG] - [2026-05-22 09:33:59] [Engine] starting turn #8
+[DEBUG] - [2026-05-22 09:34:00] player 1 make move to (3, 3)
+[DEBUG] - [2026-05-22 09:34:00] [Engine] turn done!
+[DEBUG] - [2026-05-22 09:34:00] [Engine] starting turn #9
+[DEBUG] - [2026-05-22 09:34:01] player 2 make move to (6, 7)
+[DEBUG] - [2026-05-22 09:34:01] [Engine] turn done!
+[DEBUG] - [2026-05-22 09:34:01] [Engine] starting turn #10
+[DEBUG] - [2026-05-22 09:34:02] player 1 make move to (2, 3)
+[DEBUG] - [2026-05-22 09:34:02] [Engine] turn done!
+[DEBUG] - [2026-05-22 09:34:02] [Engine] starting turn #11
+[DEBUG] - [2026-05-22 09:34:03] player 2 make move to (6, 5)
+[DEBUG] - [2026-05-22 09:34:04] [Engine] turn done!
+[DEBUG] - [2026-05-22 09:34:04] [Engine] starting turn #12
+[DEBUG] - [2026-05-22 09:34:05] player 1 make move to (6, 3)
+[DEBUG] - [2026-05-22 09:34:05] [Engine] turn done!
+[DEBUG] - [2026-05-22 09:34:05] [Engine] starting turn #13
+[DEBUG] - [2026-05-22 09:34:06] player 2 make move to (6, 8)
+[DEBUG] - [2026-05-22 09:34:06] [Engine] turn done!
+[DEBUG] - [2026-05-22 09:34:06] [Engine] starting turn #14
+[DEBUG] - [2026-05-22 09:34:14] player 1 make move to (5, 3)
+[DEBUG] - [2026-05-22 09:34:14] [Engine] turn done!
+[INFO] - [2026-05-22 09:34:14] [Engine] Game done!
+[INFO] - [2026-05-22 09:34:14] [Engine] Ending game . . .
+[DEBUG] - [2026-05-22 09:34:14] [WinLine] cells: (2, 3) (3, 3) (4, 3) (5, 3) (6, 3) 
+[DEBUG] - [2026-05-22 09:34:16] after 15 turns
+[DEBUG] - [2026-05-22 09:34:16] game end with result: player 1 (human) win!
+[INFO] - [2026-05-22 09:34:16] [Engine] Game ended!
+[INFO] - [2026-05-22 09:34:16] Engine closing . . .
+[INFO] - [2026-05-22 09:34:16] SDLRenderer closed.
+[INFO] - [2026-05-22 09:34:16] Engine closed!
+[INFO] - [2026-05-22 09:34:16] Engine destroyed!
+[INFO] - [2026-05-22 09:34:16] Infra destroyed!
+[INFO] - [2026-05-22 09:34:16] Logger closing . . .

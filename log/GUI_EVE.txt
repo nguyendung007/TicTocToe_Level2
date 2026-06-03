@@ -1,0 +1,81 @@
+Tic-tac-toe Game (Version: 0.4.25022808 by baluong.87)
+------------------------------------------------
+[INFO] - [2026-05-22 09:31:26] Logger Khoi Tao Hoan Tat
+[DEBUG] - [2026-05-22 09:31:26] RunConfig {
+  interactive:  true
+  judge_mode:   false
+  input_file:   ""
+  to_file:      true
+  log_file:     "log.txt"
+  verbose_flag: true
+  gui_flag:     true
+  is_help:      false
+}
+[INFO] - [2026-05-22 09:31:26] SDL Renderer initialized!
+[INFO] - [2026-05-22 09:31:26] SDL Interaction initialized!
+[INFO] - [2026-05-22 09:31:26] Infra initialized!
+[INFO] - [2026-05-22 09:31:26] Engine initializing . . .
+[INFO] - [2026-05-22 09:31:27] Font loaded: assets/font.ttf
+[INFO] - [2026-05-22 09:31:27] Texture loaded: assets/bg_menu.png
+[INFO] - [2026-05-22 09:31:27] Texture loaded: assets/bg_setup.png
+[INFO] - [2026-05-22 09:31:27] Texture loaded: assets/bg_game.png
+[INFO] - [2026-05-22 09:31:27] Texture loaded: assets/bg_result.png
+[INFO] - [2026-05-22 09:31:27] SDLRenderer initialized.
+[INFO] - [2026-05-22 09:31:27] Engine initialized!
+[INFO] - [2026-05-22 09:31:27] [Engine] Starting game . . .
+[DEBUG] - [2026-05-22 09:31:30] user input 'size' = 10
+[DEBUG] - [2026-05-22 09:31:32] user input 'goal' = 4
+[DEBUG] - [2026-05-22 09:31:35] user input 'game mode' = EVE
+[DEBUG] - [2026-05-22 09:31:36] user input 'bot level[0]' = HARD
+[DEBUG] - [2026-05-22 09:31:38] user input 'bot level[1]' = EASY
+[DEBUG] - [2026-05-22 09:31:38] Logic::initBoard: 10x10
+[INFO] - [2026-05-22 09:31:38] Board initialized!
+[INFO] - [2026-05-22 09:31:38] [Engine] Game started!
+[INFO] - [2026-05-22 09:31:38] [Engine] Playing game . . .
+[DEBUG] - [2026-05-22 09:31:38] [Engine] starting turn #0
+[DEBUG] - [2026-05-22 09:31:38] BotLevel3::getMove (minimax+evaluate)
+[DEBUG] - [2026-05-22 09:31:38] execution time of [bot#0->getMove()()] = 0.0108641s
+[DEBUG] - [2026-05-22 09:31:38] player 1 make move to (5, 5)
+[DEBUG] - [2026-05-22 09:31:39] [Engine] turn done!
+[DEBUG] - [2026-05-22 09:31:39] [Engine] starting turn #1
+[DEBUG] - [2026-05-22 09:31:39] BotLevel1::getMove (random)
+[DEBUG] - [2026-05-22 09:31:39] execution time of [bot#1->getMove()()] = 0.0002213s
+[DEBUG] - [2026-05-22 09:31:39] player 2 make move to (3, 1)
+[DEBUG] - [2026-05-22 09:31:41] [Engine] turn done!
+[DEBUG] - [2026-05-22 09:31:41] [Engine] starting turn #2
+[DEBUG] - [2026-05-22 09:31:41] BotLevel3::getMove (minimax+evaluate)
+[DEBUG] - [2026-05-22 09:31:41] execution time of [bot#0->getMove()()] = 0.365423s
+[DEBUG] - [2026-05-22 09:31:41] player 1 make move to (4, 4)
+[DEBUG] - [2026-05-22 09:31:43] [Engine] turn done!
+[DEBUG] - [2026-05-22 09:31:43] [Engine] starting turn #3
+[DEBUG] - [2026-05-22 09:31:43] BotLevel1::getMove (random)
+[DEBUG] - [2026-05-22 09:31:43] execution time of [bot#1->getMove()()] = 7.73e-05s
+[DEBUG] - [2026-05-22 09:31:43] player 2 make move to (3, 6)
+[DEBUG] - [2026-05-22 09:31:44] [Engine] turn done!
+[DEBUG] - [2026-05-22 09:31:44] [Engine] starting turn #4
+[DEBUG] - [2026-05-22 09:31:44] BotLevel3::getMove (minimax+evaluate)
+[DEBUG] - [2026-05-22 09:31:44] execution time of [bot#0->getMove()()] = 0.390999s
+[DEBUG] - [2026-05-22 09:31:44] player 1 make move to (6, 6)
+[DEBUG] - [2026-05-22 09:31:46] [Engine] turn done!
+[DEBUG] - [2026-05-22 09:31:46] [Engine] starting turn #5
+[DEBUG] - [2026-05-22 09:31:46] BotLevel1::getMove (random)
+[DEBUG] - [2026-05-22 09:31:46] execution time of [bot#1->getMove()()] = 0.0001271s
+[DEBUG] - [2026-05-22 09:31:46] player 2 make move to (8, 3)
+[DEBUG] - [2026-05-22 09:31:47] [Engine] turn done!
+[DEBUG] - [2026-05-22 09:31:47] [Engine] starting turn #6
+[DEBUG] - [2026-05-22 09:31:47] BotLevel3::getMove (minimax+evaluate)
+[DEBUG] - [2026-05-22 09:31:47] execution time of [bot#0->getMove()()] = 0.0003978s
+[DEBUG] - [2026-05-22 09:31:47] player 1 make move to (3, 3)
+[DEBUG] - [2026-05-22 09:31:49] [Engine] turn done!
+[INFO] - [2026-05-22 09:31:49] [Engine] Game done!
+[INFO] - [2026-05-22 09:31:49] [Engine] Ending game . . .
+[DEBUG] - [2026-05-22 09:31:49] [WinLine] cells: (3, 3) (4, 4) (5, 5) (6, 6) 
+[DEBUG] - [2026-05-22 09:31:51] after 7 turns
+[DEBUG] - [2026-05-22 09:31:51] game end with result: player 1 (bot) win!
+[INFO] - [2026-05-22 09:31:51] [Engine] Game ended!
+[INFO] - [2026-05-22 09:31:51] Engine closing . . .
+[INFO] - [2026-05-22 09:31:51] SDLRenderer closed.
+[INFO] - [2026-05-22 09:31:51] Engine closed!
+[INFO] - [2026-05-22 09:31:51] Engine destroyed!
+[INFO] - [2026-05-22 09:31:51] Infra destroyed!
+[INFO] - [2026-05-22 09:31:51] Logger closing . . .

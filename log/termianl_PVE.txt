@@ -1,0 +1,70 @@
+Tic-tac-toe Game (Version: 0.4.25022808 by baluong.87)
+------------------------------------------------
+[INFO] - [2026-05-22 09:27:26] Logger Khoi Tao Hoan Tat
+[DEBUG] - [2026-05-22 09:27:26] RunConfig {
+  interactive:  true
+  judge_mode:   false
+  input_file:   ""
+  to_file:      true
+  log_file:     "log.txt"
+  verbose_flag: true
+  gui_flag:     false
+  is_help:      false
+}
+[INFO] - [2026-05-22 09:27:26] Terminal Renderer initialized!
+[INFO] - [2026-05-22 09:27:26] Terminal Interaction initialized!
+[INFO] - [2026-05-22 09:27:26] Infra initialized!
+[INFO] - [2026-05-22 09:27:26] Engine initializing . . .
+[INFO] - [2026-05-22 09:27:26] Engine initialized!
+[INFO] - [2026-05-22 09:27:26] [Engine] Starting game . . .
+[DEBUG] - [2026-05-22 09:27:29] user input 'size' = 10
+[DEBUG] - [2026-05-22 09:27:31] user input 'goal' = 5
+[DEBUG] - [2026-05-22 09:27:36] user input 'game mode' = PVE
+[DEBUG] - [2026-05-22 09:27:40] user input 'bot level' = HARD
+[DEBUG] - [2026-05-22 09:27:40] Logic::initBoard: 10x10
+[INFO] - [2026-05-22 09:27:40] Board initialized!
+[INFO] - [2026-05-22 09:27:40] [Engine] Game started!
+[INFO] - [2026-05-22 09:27:40] [Engine] Playing game . . .
+[DEBUG] - [2026-05-22 09:27:40] [Engine] starting turn #0
+[DEBUG] - [2026-05-22 09:27:43] player 1 make move to (1, 3)
+[DEBUG] - [2026-05-22 09:27:43] [Engine] turn done!
+[DEBUG] - [2026-05-22 09:27:43] [Engine] starting turn #1
+[DEBUG] - [2026-05-22 09:27:43] BotLevel3::getMove (minimax+evaluate)
+[DEBUG] - [2026-05-22 09:27:43] execution time of [bot#1->getMove()()] = 0.106646s
+[DEBUG] - [2026-05-22 09:27:43] player 2 make move to (3, 5)
+[DEBUG] - [2026-05-22 09:27:44] [Engine] turn done!
+[DEBUG] - [2026-05-22 09:27:44] [Engine] starting turn #2
+[DEBUG] - [2026-05-22 09:27:46] player 1 make move to (2, 4)
+[DEBUG] - [2026-05-22 09:27:46] [Engine] turn done!
+[DEBUG] - [2026-05-22 09:27:46] [Engine] starting turn #3
+[DEBUG] - [2026-05-22 09:27:46] BotLevel3::getMove (minimax+evaluate)
+[DEBUG] - [2026-05-22 09:27:46] execution time of [bot#1->getMove()()] = 0.179516s
+[DEBUG] - [2026-05-22 09:27:46] player 2 make move to (5, 5)
+[DEBUG] - [2026-05-22 09:27:48] [Engine] turn done!
+[DEBUG] - [2026-05-22 09:27:48] [Engine] starting turn #4
+[DEBUG] - [2026-05-22 09:27:52] player 1 make move to (3, 6)
+[DEBUG] - [2026-05-22 09:27:52] [Engine] turn done!
+[DEBUG] - [2026-05-22 09:27:52] [Engine] starting turn #5
+[DEBUG] - [2026-05-22 09:27:52] BotLevel3::getMove (minimax+evaluate)
+[DEBUG] - [2026-05-22 09:27:52] execution time of [bot#1->getMove()()] = 0.257721s
+[DEBUG] - [2026-05-22 09:27:52] player 2 make move to (4, 5)
+[DEBUG] - [2026-05-22 09:27:54] [Engine] turn done!
+[DEBUG] - [2026-05-22 09:27:54] [Engine] starting turn #6
+[DEBUG] - [2026-05-22 09:27:56] player 1 make move to (2, 7)
+[DEBUG] - [2026-05-22 09:27:56] [Engine] turn done!
+[DEBUG] - [2026-05-22 09:27:56] [Engine] starting turn #7
+[DEBUG] - [2026-05-22 09:27:56] BotLevel3::getMove (minimax+evaluate)
+[DEBUG] - [2026-05-22 09:27:57] execution time of [bot#1->getMove()()] = 0.469073s
+[DEBUG] - [2026-05-22 09:27:57] player 2 make move to (6, 5)
+[DEBUG] - [2026-05-22 09:27:58] [Engine] turn done!
+[DEBUG] - [2026-05-22 09:27:58] [Engine] starting turn #8
+[DEBUG] - [2026-05-22 09:28:00] player 1 make move to (0, 9)
+[DEBUG] - [2026-05-22 09:28:00] [Engine] turn done!
+[DEBUG] - [2026-05-22 09:28:00] [Engine] starting turn #9
+[DEBUG] - [2026-05-22 09:28:00] BotLevel3::getMove (minimax+evaluate)
+[DEBUG] - [2026-05-22 09:28:00] execution time of [bot#1->getMove()()] = 0.0003741s
+[DEBUG] - [2026-05-22 09:28:00] player 2 make move to (2, 5)
+[DEBUG] - [2026-05-22 09:28:02] [Engine] turn done!
+[INFO] - [2026-05-22 09:28:02] [Engine] Game done!
+[INFO] - [2026-05-22 09:28:02] [Engine] Ending game . . .
+[DEBUG] - [2026-05-22 09:28:02] [WinLine] cells: (2, 5) (3, 5) (4, 5) (5, 5) (6, 5) 

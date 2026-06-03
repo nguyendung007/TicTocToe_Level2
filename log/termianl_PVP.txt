@@ -1,0 +1,56 @@
+Tic-tac-toe Game (Version: 0.4.25022808 by baluong.87)
+------------------------------------------------
+[INFO] - [2026-05-22 09:28:52] Logger Khoi Tao Hoan Tat
+[DEBUG] - [2026-05-22 09:28:52] RunConfig {
+  interactive:  true
+  judge_mode:   false
+  input_file:   ""
+  to_file:      true
+  log_file:     "log.txt"
+  verbose_flag: true
+  gui_flag:     false
+  is_help:      false
+}
+[INFO] - [2026-05-22 09:28:52] Terminal Renderer initialized!
+[INFO] - [2026-05-22 09:28:52] Terminal Interaction initialized!
+[INFO] - [2026-05-22 09:28:52] Infra initialized!
+[INFO] - [2026-05-22 09:28:52] Engine initializing . . .
+[INFO] - [2026-05-22 09:28:52] Engine initialized!
+[INFO] - [2026-05-22 09:28:52] [Engine] Starting game . . .
+[DEBUG] - [2026-05-22 09:28:58] user input 'size' = 10
+[DEBUG] - [2026-05-22 09:28:59] user input 'goal' = 5
+[DEBUG] - [2026-05-22 09:29:02] user input 'game mode' = PVP
+[DEBUG] - [2026-05-22 09:29:02] Logic::initBoard: 10x10
+[INFO] - [2026-05-22 09:29:02] Board initialized!
+[INFO] - [2026-05-22 09:29:02] [Engine] Game started!
+[INFO] - [2026-05-22 09:29:02] [Engine] Playing game . . .
+[DEBUG] - [2026-05-22 09:29:02] [Engine] starting turn #0
+[DEBUG] - [2026-05-22 09:29:04] player 1 make move to (1, 1)
+[DEBUG] - [2026-05-22 09:29:04] [Engine] turn done!
+[DEBUG] - [2026-05-22 09:29:04] [Engine] starting turn #1
+[DEBUG] - [2026-05-22 09:29:08] player 2 make move to (9, 9)
+[DEBUG] - [2026-05-22 09:29:08] [Engine] turn done!
+[DEBUG] - [2026-05-22 09:29:08] [Engine] starting turn #2
+[DEBUG] - [2026-05-22 09:29:11] player 1 make move to (2, 2)
+[DEBUG] - [2026-05-22 09:29:11] [Engine] turn done!
+[DEBUG] - [2026-05-22 09:29:11] [Engine] starting turn #3
+[DEBUG] - [2026-05-22 09:29:13] player 2 make move to (9, 8)
+[DEBUG] - [2026-05-22 09:29:13] [Engine] turn done!
+[DEBUG] - [2026-05-22 09:29:13] [Engine] starting turn #4
+[DEBUG] - [2026-05-22 09:29:17] player 1 make move to (3, 3)
+[DEBUG] - [2026-05-22 09:29:17] [Engine] turn done!
+[DEBUG] - [2026-05-22 09:29:17] [Engine] starting turn #5
+[DEBUG] - [2026-05-22 09:29:19] player 2 make move to (9, 7)
+[DEBUG] - [2026-05-22 09:29:19] [Engine] turn done!
+[DEBUG] - [2026-05-22 09:29:19] [Engine] starting turn #6
+[DEBUG] - [2026-05-22 09:29:21] player 1 make move to (4, 4)
+[DEBUG] - [2026-05-22 09:29:21] [Engine] turn done!
+[DEBUG] - [2026-05-22 09:29:21] [Engine] starting turn #7
+[DEBUG] - [2026-05-22 09:29:25] player 2 make move to (8, 5)
+[DEBUG] - [2026-05-22 09:29:25] [Engine] turn done!
+[DEBUG] - [2026-05-22 09:29:25] [Engine] starting turn #8
+[DEBUG] - [2026-05-22 09:29:27] player 1 make move to (5, 5)
+[DEBUG] - [2026-05-22 09:29:27] [Engine] turn done!
+[INFO] - [2026-05-22 09:29:27] [Engine] Game done!
+[INFO] - [2026-05-22 09:29:27] [Engine] Ending game . . .
+[DEBUG] - [2026-05-22 09:29:28] [WinLine] cells: (1, 1) (2, 2) (3, 3) (4, 4) (5, 5) 
